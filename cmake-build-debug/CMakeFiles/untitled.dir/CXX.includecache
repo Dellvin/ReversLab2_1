@@ -9,6 +9,20 @@
 D:/CLionProjects/untitled/main.cpp
 iostream
 -
-cstring
+tree_handler/TreeHandler.h
+D:/CLionProjects/untitled/tree_handler/TreeHandler.h
+tree/tree.h
+D:/CLionProjects/untitled/tree/tree.h
+
+D:/CLionProjects/untitled/tree/tree.h
+iostream
 -
+vector
+-
+
+D:/CLionProjects/untitled/tree_handler/TreeHandler.h
+cstdint
+-
+../tree/tree.h
+D:/CLionProjects/untitled/tree/tree.h
 

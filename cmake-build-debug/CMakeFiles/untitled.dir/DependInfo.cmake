@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/CLionProjects/untitled/main.cpp" "D:/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+  "D:/CLionProjects/untitled/tree/tree.cpp" "D:/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/tree/tree.cpp.obj"
+  "D:/CLionProjects/untitled/tree_handler/TreeHandler.cpp" "D:/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/tree_handler/TreeHandler.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -169,6 +169,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tree/tree.obj: tree/tree.cpp.obj
+
+.PHONY : tree/tree.obj
+
+# target to build an object file
+tree/tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/tree/tree.cpp.obj
+.PHONY : tree/tree.cpp.obj
+
+tree/tree.i: tree/tree.cpp.i
+
+.PHONY : tree/tree.i
+
+# target to preprocess a source file
+tree/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/tree/tree.cpp.i
+.PHONY : tree/tree.cpp.i
+
+tree/tree.s: tree/tree.cpp.s
+
+.PHONY : tree/tree.s
+
+# target to generate assembly for a file
+tree/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/tree/tree.cpp.s
+.PHONY : tree/tree.cpp.s
+
+tree_handler/TreeHandler.obj: tree_handler/TreeHandler.cpp.obj
+
+.PHONY : tree_handler/TreeHandler.obj
+
+# target to build an object file
+tree_handler/TreeHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/tree_handler/TreeHandler.cpp.obj
+.PHONY : tree_handler/TreeHandler.cpp.obj
+
+tree_handler/TreeHandler.i: tree_handler/TreeHandler.cpp.i
+
+.PHONY : tree_handler/TreeHandler.i
+
+# target to preprocess a source file
+tree_handler/TreeHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/tree_handler/TreeHandler.cpp.i
+.PHONY : tree_handler/TreeHandler.cpp.i
+
+tree_handler/TreeHandler.s: tree_handler/TreeHandler.cpp.s
+
+.PHONY : tree_handler/TreeHandler.s
+
+# target to generate assembly for a file
+tree_handler/TreeHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/tree_handler/TreeHandler.cpp.s
+.PHONY : tree_handler/TreeHandler.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +235,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tree/tree.obj
+	@echo ... tree/tree.i
+	@echo ... tree/tree.s
+	@echo ... tree_handler/TreeHandler.obj
+	@echo ... tree_handler/TreeHandler.i
+	@echo ... tree_handler/TreeHandler.s
 .PHONY : help
 
 

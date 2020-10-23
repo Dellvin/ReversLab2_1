@@ -1,9 +1,9 @@
 #include<iostream>
-#include <cstring>
-
+#include "tree_handler/TreeHandler.h"
 
 int main(int argc, char **argv){
-    uint8_t command;
+    uint16_t command;
+    TreeHandler tree;
     do{
         std::cout<<"\nWhat do you want to do?\n";
         std::cout<<"1.Insert\n";
@@ -21,33 +21,32 @@ int main(int argc, char **argv){
                 std::cout<<"\nEnter The Data for Inserting:";
                 std::cin>>arg;
                 std::cout<<"\nInserting!\n\n";
-                //TODO: Insert func
+                tree.add(arg);
                 break;
             case 2:
                 std::cout<<"\nEnter The Data for Deleting:";
                 std::cin>>arg;
-                //TODO: Delete func
+                tree.remove(arg);
                 break;
             case 3:
-                //TODO: show func
+                std::cout<<tree.show();
                 break;
             case 4:
-                //TODO: Inorder func
+                std::cout<<tree.showInorder()<<std::endl;
                 break;
             case 5:
-                //TODO: Preorder func
+                std::cout<<tree.showPreorder()<<std::endl;
                 break;
             case 6:
-                //TODO: Postorder func
+                std::cout<<tree.showPostorder()<<std::endl;
                 break;
             case 7:
                 std::cout<<"\nExiting......";
-                return 1;
+                return 0;
             default:
                 std::cout<<"Please Enter a valid number!!\n";
                 break;
         }
     }while(true);
-    return 0;
 }
 
